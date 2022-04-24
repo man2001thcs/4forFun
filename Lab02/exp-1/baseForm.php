@@ -7,7 +7,7 @@
     <title>Base Form Student</title>
 </head>
 <body>
-<form action="/CN-WEB/4forFun/Lab02/exp-1/baseForm2.php" method="post">
+<form action="baseForm2.php" method="post">
         Enter your information here
         <br>
 
