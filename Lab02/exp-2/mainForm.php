@@ -5,7 +5,7 @@
 </title>
 </head>
 <body>
-    <form action="/dayR.php" method="post">
+    <form action="/formResponse.php" method="post">
         Enter your information here
         <br>
         <label style="color: blue; display: block;">
