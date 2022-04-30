@@ -9,10 +9,11 @@
 <script>
     function validateForm() {
         var x = document.forms["registerForm"]["age"].value;
-        if (x <= 0) {
-            alert("Số tuổi phải lớn hơn 0");
+        if (x <= 18) {
+            alert("Số tuổi phải lớn hơn 18");
             return false;
         }
+        return true;
     }
     function isNumberKey(evt){
         var charCode = (evt.which) ? evt.which : event.keyCode
