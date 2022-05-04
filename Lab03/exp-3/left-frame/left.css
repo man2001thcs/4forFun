@@ -1,0 +1,46 @@
+.blog-list-container {
+    padding: 0 2rem;
+    height: 100%;
+}
+
+.blogs-container {
+    height: 680px;
+    overflow-y: auto;
+}
+
+.blog-container {
+    margin: 0 0 0.5rem 0;
+}
+
+.blog-container * {
+    margin: 0;
+}
+
+.blog-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.blog-createdAt {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.blog-content-short {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.blog-content-full {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-expand {
+    cursor: pointer;
+}

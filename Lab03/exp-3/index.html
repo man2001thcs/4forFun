@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Blogs</title>
+</head>
+<body>
+    <div class="main-container">
+        <div id="left-frame"></div>
+        <div id="right-frame"></div>
+    </div>
+    <script>
+        const leftFrame = document.getElementById("left-frame");
+        fetch('./left-frame/left.html')
+                .then(res => res.text())
+                .then(data => {
+                    leftFrame.innerHTML = data;
+                    const parser = new DOMParser()
+                    const doc = parser.parseFromString(data, 'text/html')
+                    eval(doc.querySelector('script').textContent)
+                })
+        const rightFrame = document.getElementById("right-frame");
+            fetch('./right-frame/right.html')
+                .then(res => res.text())
+                .then(data => {
+                    rightFrame.innerHTML = data;
+                    const parser = new DOMParser()
+                    const doc = parser.parseFromString(data, 'text/html')
+                    eval(doc.querySelector('script').textContent)
+                })
+    </script>
+</body>
+</html>
