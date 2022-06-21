@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Thạch Bàn Long Biên Hà Nội</name>
+    <description>My home</description>
+    <Point>
+      <coordinates>21.02010575953068, 105.90779345767156, 0</coordinates>
+    </Point>
+  </Placemark>
+</kml>

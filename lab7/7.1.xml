@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+    <student>
+        <mssv>20194018</mssv>
+        <name>Chu Thành Đô</name>
+        <class>khmt02-K64</class>
+        <sex>Male</sex>       
+        <phone>0354324599</phone>
+        <address>Thạch Bàn - Hà Nội</address>
+    </student>
+	
+    <student>
+    	<mssv>20194170</mssv>
+        <name>Chu Thành Đôn</name>
+        <class>khmt02-K64</class>
+        <sex>Male</sex>       
+        <phone>0354324599</phone>
+        <address>Thạch Bàn - Hà Nội</address>
+    </student>
+</students>
